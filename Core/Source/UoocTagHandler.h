@@ -3,27 +3,21 @@
 #import "DTHTMLElement.h"
 #import "DTCSSListStyle.h"
 
-//typedef void (^TagHandler)(DTHTMLElement *currentTag);
-
 
 
 @protocol TagHandler <NSObject>
-- (void)handleStartTag:(DTHTMLElement *)currentTag;
-- (void)handleEndTag:(DTHTMLElement *)currentTag;
+- (void)handleStartTag:(nonnull DTHTMLElement *)currentTag;
+- (void)handleEndTag:(nonnull DTHTMLElement *)currentTag;
 
 @end
 
-@interface TagHandlerImpl : NSObject<TagHandler>
 
-@end
+@interface UoocTagHandler : NSObject<TagHandler>
 
-@interface UoocTagHandler : NSObject
+- (instancetype _Nonnull )initWithTagName:(nonnull NSString *)tagName;
 
-- (instancetype)initWithTagName:(NSString *)tagName
-                      handler:(id<TagHandler>)handler;
-
-@property (nonatomic, copy) NSString *tagName;
-@property (nonatomic, weak) id<TagHandler> handler;
+@property (nonatomic, copy) NSString * _Nonnull tagName;
+@property (nonatomic, weak,readonly) id<TagHandler> _Nullable handler;
 
 @end
 
