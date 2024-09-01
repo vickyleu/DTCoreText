@@ -8,6 +8,7 @@
 
 #import <DTFoundation/DTHTMLParser.h>
 
+@class UoocTagHandler;
 @class DTHTMLElement;
 
 /**
@@ -61,6 +62,8 @@ typedef void(^DTHTMLAttributedStringBuilderParseErrorCallback)(NSAttributedStrin
  */
 - (id)initWithHTML:(NSData *)data options:(NSDictionary *)options documentAttributes:(NSDictionary * __autoreleasing*)docAttributes;
 
+
+-(void)registerTagHandlers:(NSArray<UoocTagHandler*> *)tagHandlers;
 
 /**
  @name Generating Attributed Strings

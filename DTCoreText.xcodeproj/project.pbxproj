@@ -2045,7 +2045,7 @@
 				ORGANIZATIONNAME = Drobnik.com;
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
-						DevelopmentTeam = Z7L2YCUH45;
+						DevelopmentTeam = 9P6269MA4E;
 					};
 					A78D9F771965B7DD00C80986 = {
 						CreatedOnToolsVersion = 6.0;
@@ -2715,7 +2715,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = Z7L2YCUH45;
+				DEVELOPMENT_TEAM = 9P6269MA4E;
+				ENABLE_BITCODE = YES;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREFIX_HEADER = "Demo/DemoApp-Prefix.pch";
@@ -2724,7 +2725,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.drobnik.DTCoreText.demo;
+				PRODUCT_BUNDLE_IDENTIFIER = org.uooc.DTCoreText;
 				PRODUCT_NAME = RTDemoApp;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
@@ -2736,14 +2737,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = YES;
-				DEVELOPMENT_TEAM = Z7L2YCUH45;
+				DEVELOPMENT_TEAM = 9P6269MA4E;
+				ENABLE_BITCODE = YES;
 				GCC_PREFIX_HEADER = "Demo/DemoApp-Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;
 				INFOPLIST_FILE = "Demo/DemoApp-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.drobnik.DTCoreText.demo;
+				PRODUCT_BUNDLE_IDENTIFIER = org.uooc.DTCoreText;
 				PRODUCT_NAME = RTDemoApp;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
@@ -3320,7 +3322,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = Z7L2YCUH45;
+				DEVELOPMENT_TEAM = 9P6269MA4E;
+				ENABLE_BITCODE = YES;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREFIX_HEADER = "Demo/DemoApp-Prefix.pch";
@@ -3329,7 +3332,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.drobnik.DTCoreText.demo;
+				PRODUCT_BUNDLE_IDENTIFIER = org.uooc.DTCoreText;
 				PRODUCT_NAME = RTDemoApp;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";

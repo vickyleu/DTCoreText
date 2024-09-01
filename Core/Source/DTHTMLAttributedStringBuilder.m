@@ -25,6 +25,8 @@
 #import "DTObjectTextAttachment.h"
 #import "DTVideoTextAttachment.h"
 
+#import "UoocTagHandler.h"
+
 #import "NSString+HTML.h"
 #import "NSCharacterSet+HTML.h"
 #import "NSMutableAttributedString+HTML.h"
@@ -46,6 +48,8 @@
 	NSData *_data;
 	NSDictionary *_options;
 	BOOL _shouldKeepDocumentNodeTree;
+    
+    NSMutableArray<UoocTagHandler*>* _customTagHandlers;
 	
 	// settings for parsing
 	CGFloat _textScale;
@@ -96,6 +100,7 @@
 	{
 		_data = data;
 		_options = options;
+        _customTagHandlers = [[NSMutableArray alloc]init];
 		
 		// documentAttributes ignored for now
 		// Specify the appropriate text encoding for the passed data, default is UTF8
@@ -120,6 +125,12 @@
 	}
 	
 	return self;
+}
+
+
+
+-(void)registerTagHandlers:(NSArray<UoocTagHandler *> *)tagHandlers{
+    [_customTagHandlers addObjectsFromArray:tagHandlers];
 }
 
 - (void)dealloc
@@ -615,6 +626,15 @@
 	};
 	
 	[_tagStartHandlers setObject:[pBlock copy] forKey:@"p"];
+    
+    
+    [_customTagHandlers enumerateObjectsUsingBlock:^(UoocTagHandler * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        void (^startBlock)(void) = ^{
+            [obj.handler handleStartTag:self->_currentTag];
+        };
+        [_tagStartHandlers setObject:startBlock forKey:obj.tagName];
+    }];
+    
 }
 
 - (void)_registerTagEndHandlers
@@ -708,6 +728,12 @@
 	};
 	
 	[ _tagEndHandlers setObject:[linkBlock copy] forKey:@"link"];
+    [_customTagHandlers enumerateObjectsUsingBlock:^(UoocTagHandler * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        void (^endBlock)(void) = ^{
+            [obj.handler handleEndTag:self->_currentTag];
+        };
+        [_tagEndHandlers setObject:endBlock forKey:obj.tagName];
+    }];
 }
 
 #pragma mark DTHTMLParser Delegate

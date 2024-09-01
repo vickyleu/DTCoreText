@@ -1,14 +1,21 @@
-buildscript {
-    repositories {
-				maven {
-					url('http://openbakery.org/repository/')
-				}
-				mavenCentral()
-    }
-    dependencies {
-        classpath group: 'org.openbakery', name: 'xcodePlugin', version: '0.9.+'
-    }
+//buildscript {
+//    /*repositories {
+//				maven {
+//					url('http://openbakery.org/repository/')
+//                    //http 接受不安全
+//                    allowInsecureProtocol = true
+//				}
+//				mavenCentral()
+//    }*/
+//    dependencies {
+//        classpath group: 'org.openbakery', name: 'xcodePlugin', version: '0.9.+'
+//    }
+//}
+
+plugins{
+    id "org.openbakery.xcode-plugin" version "0.24.+"
 }
+
 apply plugin: 'xcode'
 
 
@@ -42,53 +49,59 @@ ant.taskdef(
   classpath: configurations.ftpAntTask.asPath
 )
 
-task documentationUpload << {
-  def uploadHost = 'docs.cocoanetics.com'
-  if (project.ext.properties.containsKey("uploadHost")) {
-    uploadHost = project.ext.uploadHost
-  }
+task documentationUpload {
+    doLast{
+        def uploadHost = 'docs.cocoanetics.com'
+        if (project.ext.properties.containsKey("uploadHost")) {
+            uploadHost = project.ext.uploadHost
+        }
 
-  def uploadUser = null
-  if (project.ext.properties.containsKey("uploadUser")) {
-    uploadUser = project.ext.uploadUser
-  } else {
-    uploadUser = System.console().readLine("\nPlease enter the upload user: ")
-  }
+        def uploadUser = null
+        if (project.ext.properties.containsKey("uploadUser")) {
+            uploadUser = project.ext.uploadUser
+        } else {
+            uploadUser = System.console().readLine("\nPlease enter the upload user: ")
+        }
 
-  def uploadPassword = null
-  if (project.ext.properties.containsKey("uploadPassword")) {
-    uploadPassword = project.ext.uploadPassword
-  } else {
-    uploadPassword = "" + System.console().readPassword("\nPlease enter the upload server password: ")
-  }
-
-
-  // -------------- UPLOAD DIRECTORY -------------
-
-  def uploadDirectory = 'DTCoreText'
-  if (project.ext.properties.containsKey("uploadDirectory")) {
-    uploadDirectory = project.ext.uploadDirectory
-  }
+        def uploadPassword = null
+        if (project.ext.properties.containsKey("uploadPassword")) {
+            uploadPassword = project.ext.uploadPassword
+        } else {
+            uploadPassword = "" + System.console().readPassword("\nPlease enter the upload server password: ")
+        }
 
 
-  ant.ftp(
-    server: uploadHost,
-    remotedir: uploadDirectory,
-    userid: uploadUser,
-    password: uploadPassword,
-    depends: true,
-    verbose: true,
-    passive: true) {
+        // -------------- UPLOAD DIRECTORY -------------
 
-      fileset(dir: 'build/documentation/html') {
-        include(name: '**/**')
-      }
-      fileset(dir: 'build/documentation/publish') {
-        include(name: '**/**')
-      }
-  }
+        def uploadDirectory = 'DTCoreText'
+        if (project.ext.properties.containsKey("uploadDirectory")) {
+            uploadDirectory = project.ext.uploadDirectory
+        }
 
+
+        ant.ftp(
+                server: uploadHost,
+                remotedir: uploadDirectory,
+                userid: uploadUser,
+                password: uploadPassword,
+                depends: true,
+                verbose: true,
+                passive: true) {
+
+            fileset(dir: 'build/documentation/html') {
+                include(name: '**/**')
+            }
+            fileset(dir: 'build/documentation/publish') {
+                include(name: '**/**')
+            }
+        }
+
+    }
 }
+
+//task documentationUpload << {
+//
+//}
 
 
 // ---------- Unit Tests ----------
