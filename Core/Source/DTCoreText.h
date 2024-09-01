@@ -87,6 +87,7 @@
 #import "DTDictationPlaceholderView.h"
 
 #import "UIFont+DTCoreText.h"
+#import "UoocTagHandler"
 
 #import "DTAccessibilityElement.h"
 #import "DTAccessibilityViewProxy.h"
