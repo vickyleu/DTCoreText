@@ -35,6 +35,12 @@
 		2FB02E1F2C848DFE0036957D /* UoocTagHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB02E1B2C848DFE0036957D /* UoocTagHandler.m */; };
 		2FB02E202C848DFE0036957D /* UoocTagHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB02E1B2C848DFE0036957D /* UoocTagHandler.m */; };
 		2FB02E212C848DFE0036957D /* UoocTagHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB02E1B2C848DFE0036957D /* UoocTagHandler.m */; };
+		2FB02E5B2C84D0830036957D /* TagRandererView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FB02E592C84D0830036957D /* TagRandererView.h */; };
+		2FB02E5C2C84D0830036957D /* TagRandererView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB02E5A2C84D0830036957D /* TagRandererView.m */; };
+		2FB02E5D2C84D0830036957D /* TagRandererView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB02E5A2C84D0830036957D /* TagRandererView.m */; };
+		2FB02E5E2C84D0830036957D /* TagRandererView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FB02E592C84D0830036957D /* TagRandererView.h */; };
+		2FB02E5F2C84D0830036957D /* TagRandererView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FB02E592C84D0830036957D /* TagRandererView.h */; };
+		2FB02E602C84D0830036957D /* TagRandererView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB02E5A2C84D0830036957D /* TagRandererView.m */; };
 		3A4EA52D1D475B2A009222BF /* NSNumber+RomanNumerals.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A4EA50F1D475B17009222BF /* NSNumber+RomanNumerals.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3A4EA52E1D475B2A009222BF /* NSNumber+RomanNumerals.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4EA5101D475B17009222BF /* NSNumber+RomanNumerals.m */; };
 		3A4EA52F1D475B2B009222BF /* NSNumber+RomanNumerals.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A4EA50F1D475B17009222BF /* NSNumber+RomanNumerals.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -801,6 +807,8 @@
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		2FB02E1A2C848DFE0036957D /* UoocTagHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UoocTagHandler.h; sourceTree = "<group>"; };
 		2FB02E1B2C848DFE0036957D /* UoocTagHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UoocTagHandler.m; sourceTree = "<group>"; };
+		2FB02E592C84D0830036957D /* TagRandererView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TagRandererView.h; sourceTree = "<group>"; };
+		2FB02E5A2C84D0830036957D /* TagRandererView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TagRandererView.m; sourceTree = "<group>"; };
 		3A4EA50F1D475B17009222BF /* NSNumber+RomanNumerals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+RomanNumerals.h"; sourceTree = "<group>"; };
 		3A4EA5101D475B17009222BF /* NSNumber+RomanNumerals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+RomanNumerals.m"; sourceTree = "<group>"; };
 		3A4EA5311D475D76009222BF /* NSNumberRomanNumeralsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSNumberRomanNumeralsTest.m; sourceTree = "<group>"; };
@@ -912,7 +920,7 @@
 		A788C91E14863E8700E1AFD9 /* DTCoreTextLayouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTCoreTextLayouter.h; sourceTree = "<group>"; };
 		A788C91F14863E8700E1AFD9 /* DTCoreTextLayouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTCoreTextLayouter.m; sourceTree = "<group>"; };
 		A788C92014863E8700E1AFD9 /* DTCoreTextLayoutFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTCoreTextLayoutFrame.h; sourceTree = "<group>"; };
-		A788C92114863E8700E1AFD9 /* DTCoreTextLayoutFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = DTCoreTextLayoutFrame.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		A788C92114863E8700E1AFD9 /* DTCoreTextLayoutFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = DTCoreTextLayoutFrame.m; sourceTree = "<group>"; };
 		A788C92214863E8700E1AFD9 /* DTCoreTextLayoutLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTCoreTextLayoutLine.h; sourceTree = "<group>"; };
 		A788C92314863E8700E1AFD9 /* DTCoreTextLayoutLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTCoreTextLayoutLine.m; sourceTree = "<group>"; };
 		A788C92414863E8700E1AFD9 /* DTCoreTextParagraphStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTCoreTextParagraphStyle.h; sourceTree = "<group>"; };
@@ -1021,7 +1029,7 @@
 		A7B14E3E183638D30007CF27 /* DTLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DTLog.h; path = DTFoundation/Core/Source/DTLog.h; sourceTree = "<group>"; };
 		A7B14E4618363B5B0007CF27 /* NSString+DTUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+DTUtilities.h"; path = "DTFoundation/Core/Source/NSString+DTUtilities.h"; sourceTree = "<group>"; };
 		A7C1CC0E14D6CFD5008D6468 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = SDKs/MacOSX10.7.sdk/System/Library/Frameworks/AppKit.framework; sourceTree = DEVELOPER_DIR; };
-		A7C5D01314D7E3BB00AF1D75 /* DTImage+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "DTImage+HTML.h"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		A7C5D01314D7E3BB00AF1D75 /* DTImage+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "DTImage+HTML.h"; sourceTree = "<group>"; };
 		A7C5D01414D7E3BB00AF1D75 /* DTImage+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DTImage+HTML.m"; sourceTree = "<group>"; };
 		A7C7ACD314D924B1005A9C69 /* NSMutableString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+HTML.h"; sourceTree = "<group>"; };
 		A7C7ACD414D924B1005A9C69 /* NSMutableString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+HTML.m"; sourceTree = "<group>"; };
@@ -1239,6 +1247,17 @@
 				A7949A5C14CC456000A8CCDE /* Other Frameworks */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2FB02E3F2C84D0330036957D /* TagHandler */ = {
+			isa = PBXGroup;
+			children = (
+				2FB02E1A2C848DFE0036957D /* UoocTagHandler.h */,
+				2FB02E1B2C848DFE0036957D /* UoocTagHandler.m */,
+				2FB02E592C84D0830036957D /* TagRandererView.h */,
+				2FB02E5A2C84D0830036957D /* TagRandererView.m */,
+			);
+			path = TagHandler;
 			sourceTree = "<group>";
 		};
 		A04CF1971738BBF00036E735 /* Accessibility */ = {
@@ -1530,12 +1549,11 @@
 		A7949A4414CAF56300A8CCDE /* HTML Parsing */ = {
 			isa = PBXGroup;
 			children = (
+				2FB02E3F2C84D0330036957D /* TagHandler */,
 				A7C5D00614D7DA6500AF1D75 /* Dual Platform */,
 				A7AE58021725330400A9BF61 /* DTHTMLElement */,
 				A7AE58091725332D00A9BF61 /* DTTextAttachment */,
 				A7949A9C14CC565F00A8CCDE /* DTCoreTextConstants.h */,
-				2FB02E1A2C848DFE0036957D /* UoocTagHandler.h */,
-				2FB02E1B2C848DFE0036957D /* UoocTagHandler.m */,
 				A7949A4F14CC44D200A8CCDE /* DTCoreTextConstants.m */,
 				A72D975C1684B38B005F8BA5 /* DTCoreTextFunctions.h */,
 				A72D975D1684B38B005F8BA5 /* DTCoreTextFunctions.m */,
@@ -1749,6 +1767,7 @@
 				94D24B5F1D4AFE7800C7F33C /* NSScanner+HTML.h in Headers */,
 				94D24B601D4AFE7800C7F33C /* DTColorFunctions.h in Headers */,
 				94D24B611D4AFE7800C7F33C /* DTHTMLParserTextNode.h in Headers */,
+				2FB02E5F2C84D0830036957D /* TagRandererView.h in Headers */,
 				94D24B621D4AFE7800C7F33C /* DTCoreTextParagraphStyle.h in Headers */,
 				94D24B631D4AFE7800C7F33C /* DTTextAttachment.h in Headers */,
 				94D24B641D4AFE7800C7F33C /* DTAccessibilityViewProxy.h in Headers */,
@@ -1819,6 +1838,7 @@
 				A79BA6B71B46A2700086C2F6 /* NSScanner+HTML.h in Headers */,
 				A79BA68B1B46A2530086C2F6 /* DTColorFunctions.h in Headers */,
 				A79BA6751B46A24A0086C2F6 /* DTHTMLParserTextNode.h in Headers */,
+				2FB02E5E2C84D0830036957D /* TagRandererView.h in Headers */,
 				A79BA6711B46A24A0086C2F6 /* DTCoreTextParagraphStyle.h in Headers */,
 				A79BA68D1B46A25A0086C2F6 /* DTTextAttachment.h in Headers */,
 				A7B130571B4B25E30014E109 /* DTAccessibilityViewProxy.h in Headers */,
@@ -1873,6 +1893,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDAE5F871F511E26003A5F0B /* NSAttributedString+HTML.h in Headers */,
+				2FB02E5B2C84D0830036957D /* TagRandererView.h in Headers */,
 				FDAE5F861F511DEB003A5F0B /* DTStylesheetHTMLElement.h in Headers */,
 				FDAE5F851F511DA6003A5F0B /* DTImage+HTML.h in Headers */,
 				FDAE5F841F511D62003A5F0B /* DTColor+Compatibility.h in Headers */,
@@ -2488,6 +2509,7 @@
 				94D24B2F1D4AFE7800C7F33C /* NSCoder+DTCompatibility.m in Sources */,
 				94D24B301D4AFE7800C7F33C /* DTImageTextAttachment.m in Sources */,
 				94D24B311D4AFE7800C7F33C /* DTTextHTMLElement.m in Sources */,
+				2FB02E602C84D0830036957D /* TagRandererView.m in Sources */,
 				94D24B321D4AFE7800C7F33C /* NSString+HTML.m in Sources */,
 				94D24B331D4AFE7800C7F33C /* NSAttributedString+HTML.m in Sources */,
 				94D24B341D4AFE7800C7F33C /* NSCharacterSet+HTML.m in Sources */,
@@ -2607,6 +2629,7 @@
 				A79BA6941B46A25A0086C2F6 /* DTImageTextAttachment.m in Sources */,
 				A79BA6841B46A24F0086C2F6 /* DTTextHTMLElement.m in Sources */,
 				A79BA6BA1B46A2700086C2F6 /* NSString+HTML.m in Sources */,
+				2FB02E5D2C84D0830036957D /* TagRandererView.m in Sources */,
 				A79BA6AC1B46A2700086C2F6 /* NSAttributedString+HTML.m in Sources */,
 				A79BA6B41B46A2700086C2F6 /* NSCharacterSet+HTML.m in Sources */,
 				A79BA6761B46A24A0086C2F6 /* DTHTMLParserTextNode.m in Sources */,
@@ -2647,6 +2670,7 @@
 				E2262DD51638336700BFDAD7 /* DTColor+Compatibility.m in Sources */,
 				E2262DD61638336700BFDAD7 /* DTImage+HTML.m in Sources */,
 				E2262DD81638337D00BFDAD7 /* DTCoreTextConstants.m in Sources */,
+				2FB02E5C2C84D0830036957D /* TagRandererView.m in Sources */,
 				E2262DDC1638337D00BFDAD7 /* DTHTMLAttributedStringBuilder.m in Sources */,
 				E2262DDE1638337D00BFDAD7 /* DTHTMLElement.m in Sources */,
 				E2262DE01638337D00BFDAD7 /* DTCSSListStyle.m in Sources */,

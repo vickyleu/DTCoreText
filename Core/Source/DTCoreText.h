@@ -79,7 +79,7 @@
 
 #import "DTLazyImageView.h"
 #import "DTLinkButton.h"
-
+#import "TagRandererView.h"
 #import "DTAttributedLabel.h"
 #import "DTAttributedTextCell.h"
 #import "DTAttributedTextContentView.h"

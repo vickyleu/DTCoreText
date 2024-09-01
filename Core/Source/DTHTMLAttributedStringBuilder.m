@@ -836,6 +836,7 @@
 				}
 			}
 		}
+        id handler = [strongSelf->_tagStartHandlers objectForKey:elementName];
 		
 		strongSelf->_currentTag = newNode;
 		
