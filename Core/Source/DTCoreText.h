@@ -57,6 +57,7 @@
 #import "DTHTMLParserTextNode.h"
 
 // text attachment cluster
+#import "UoocTagHandler"
 #import "DTTextAttachment.h"
 #import "DTDictationPlaceholderTextAttachment.h"
 #import "DTIframeTextAttachment.h"
@@ -87,7 +88,7 @@
 #import "DTDictationPlaceholderView.h"
 
 #import "UIFont+DTCoreText.h"
-#import "UoocTagHandler"
+
 
 #import "DTAccessibilityElement.h"
 #import "DTAccessibilityViewProxy.h"
