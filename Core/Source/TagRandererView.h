@@ -15,7 +15,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface TagRandererView : UIView
--(instancetype)initWithAttachment:(nonnull id<DTTextAttachmentDrawing>)drawing;
+-(instancetype)initFrame:(CGRect) frame withAttachment:(nonnull id<DTTextAttachmentDrawing>)drawing;
 @end
 
 NS_ASSUME_NONNULL_END

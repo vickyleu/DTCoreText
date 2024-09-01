@@ -12,9 +12,15 @@
 @end
 
 @implementation TagRandererView
-
-- (nonnull instancetype)initWithAttachment:(nonnull id<DTTextAttachmentDrawing>)drawing {
-	self = [self init];
+-(instancetype )initWithFrame:(CGRect)frame{
+    self = [super initWithFrame:frame];
+    if(self){
+        self.backgroundColor = [UIColor clearColor];
+    }
+    return self;
+}
+-(instancetype)initFrame:(CGRect) frame withAttachment:(nonnull id<DTTextAttachmentDrawing>)drawing{
+	self = [self initWithFrame:frame];
 	if(self){
 		self.drawing = drawing;
 	}

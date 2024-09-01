@@ -29,18 +29,18 @@
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
-		2FB02E1C2C848DFE0036957D /* UoocTagHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FB02E1A2C848DFE0036957D /* UoocTagHandler.h */; };
-		2FB02E1D2C848DFE0036957D /* UoocTagHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FB02E1A2C848DFE0036957D /* UoocTagHandler.h */; };
-		2FB02E1E2C848DFE0036957D /* UoocTagHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FB02E1A2C848DFE0036957D /* UoocTagHandler.h */; };
-		2FB02E1F2C848DFE0036957D /* UoocTagHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB02E1B2C848DFE0036957D /* UoocTagHandler.m */; };
-		2FB02E202C848DFE0036957D /* UoocTagHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB02E1B2C848DFE0036957D /* UoocTagHandler.m */; };
-		2FB02E212C848DFE0036957D /* UoocTagHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB02E1B2C848DFE0036957D /* UoocTagHandler.m */; };
-		2FB02E5B2C84D0830036957D /* TagRandererView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FB02E592C84D0830036957D /* TagRandererView.h */; };
-		2FB02E5C2C84D0830036957D /* TagRandererView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB02E5A2C84D0830036957D /* TagRandererView.m */; };
-		2FB02E5D2C84D0830036957D /* TagRandererView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB02E5A2C84D0830036957D /* TagRandererView.m */; };
-		2FB02E5E2C84D0830036957D /* TagRandererView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FB02E592C84D0830036957D /* TagRandererView.h */; };
-		2FB02E5F2C84D0830036957D /* TagRandererView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FB02E592C84D0830036957D /* TagRandererView.h */; };
-		2FB02E602C84D0830036957D /* TagRandererView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB02E5A2C84D0830036957D /* TagRandererView.m */; };
+		2FB02E7F2C84DA810036957D /* TagRandererView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FB02E7B2C84DA800036957D /* TagRandererView.h */; };
+		2FB02E802C84DA810036957D /* TagRandererView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FB02E7B2C84DA800036957D /* TagRandererView.h */; };
+		2FB02E812C84DA810036957D /* TagRandererView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FB02E7B2C84DA800036957D /* TagRandererView.h */; };
+		2FB02E822C84DA810036957D /* UoocTagHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FB02E7C2C84DA800036957D /* UoocTagHandler.h */; };
+		2FB02E832C84DA810036957D /* UoocTagHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FB02E7C2C84DA800036957D /* UoocTagHandler.h */; };
+		2FB02E842C84DA810036957D /* UoocTagHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FB02E7C2C84DA800036957D /* UoocTagHandler.h */; };
+		2FB02E852C84DA810036957D /* UoocTagHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB02E7D2C84DA810036957D /* UoocTagHandler.m */; };
+		2FB02E862C84DA810036957D /* UoocTagHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB02E7D2C84DA810036957D /* UoocTagHandler.m */; };
+		2FB02E872C84DA810036957D /* UoocTagHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB02E7D2C84DA810036957D /* UoocTagHandler.m */; };
+		2FB02E882C84DA810036957D /* TagRandererView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB02E7E2C84DA810036957D /* TagRandererView.m */; };
+		2FB02E892C84DA810036957D /* TagRandererView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB02E7E2C84DA810036957D /* TagRandererView.m */; };
+		2FB02E8A2C84DA810036957D /* TagRandererView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB02E7E2C84DA810036957D /* TagRandererView.m */; };
 		3A4EA52D1D475B2A009222BF /* NSNumber+RomanNumerals.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A4EA50F1D475B17009222BF /* NSNumber+RomanNumerals.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3A4EA52E1D475B2A009222BF /* NSNumber+RomanNumerals.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4EA5101D475B17009222BF /* NSNumber+RomanNumerals.m */; };
 		3A4EA52F1D475B2B009222BF /* NSNumber+RomanNumerals.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A4EA50F1D475B17009222BF /* NSNumber+RomanNumerals.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -805,10 +805,10 @@
 		1D6058910D05DD3D006BFB54 /* RTDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RTDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		2FB02E1A2C848DFE0036957D /* UoocTagHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UoocTagHandler.h; sourceTree = "<group>"; };
-		2FB02E1B2C848DFE0036957D /* UoocTagHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UoocTagHandler.m; sourceTree = "<group>"; };
-		2FB02E592C84D0830036957D /* TagRandererView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TagRandererView.h; sourceTree = "<group>"; };
-		2FB02E5A2C84D0830036957D /* TagRandererView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TagRandererView.m; sourceTree = "<group>"; };
+		2FB02E7B2C84DA800036957D /* TagRandererView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagRandererView.h; sourceTree = "<group>"; };
+		2FB02E7C2C84DA800036957D /* UoocTagHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UoocTagHandler.h; sourceTree = "<group>"; };
+		2FB02E7D2C84DA810036957D /* UoocTagHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UoocTagHandler.m; sourceTree = "<group>"; };
+		2FB02E7E2C84DA810036957D /* TagRandererView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagRandererView.m; sourceTree = "<group>"; };
 		3A4EA50F1D475B17009222BF /* NSNumber+RomanNumerals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+RomanNumerals.h"; sourceTree = "<group>"; };
 		3A4EA5101D475B17009222BF /* NSNumber+RomanNumerals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+RomanNumerals.m"; sourceTree = "<group>"; };
 		3A4EA5311D475D76009222BF /* NSNumberRomanNumeralsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSNumberRomanNumeralsTest.m; sourceTree = "<group>"; };
@@ -1249,17 +1249,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		2FB02E3F2C84D0330036957D /* TagHandler */ = {
-			isa = PBXGroup;
-			children = (
-				2FB02E1A2C848DFE0036957D /* UoocTagHandler.h */,
-				2FB02E1B2C848DFE0036957D /* UoocTagHandler.m */,
-				2FB02E592C84D0830036957D /* TagRandererView.h */,
-				2FB02E5A2C84D0830036957D /* TagRandererView.m */,
-			);
-			path = TagHandler;
-			sourceTree = "<group>";
-		};
 		A04CF1971738BBF00036E735 /* Accessibility */ = {
 			isa = PBXGroup;
 			children = (
@@ -1549,7 +1538,10 @@
 		A7949A4414CAF56300A8CCDE /* HTML Parsing */ = {
 			isa = PBXGroup;
 			children = (
-				2FB02E3F2C84D0330036957D /* TagHandler */,
+				2FB02E7B2C84DA800036957D /* TagRandererView.h */,
+				2FB02E7E2C84DA810036957D /* TagRandererView.m */,
+				2FB02E7C2C84DA800036957D /* UoocTagHandler.h */,
+				2FB02E7D2C84DA810036957D /* UoocTagHandler.m */,
 				A7C5D00614D7DA6500AF1D75 /* Dual Platform */,
 				A7AE58021725330400A9BF61 /* DTHTMLElement */,
 				A7AE58091725332D00A9BF61 /* DTTextAttachment */,
@@ -1758,7 +1750,6 @@
 				94D24B571D4AFE7800C7F33C /* NSAttributedStringRunDelegates.h in Headers */,
 				94D24B581D4AFE7800C7F33C /* DTAttributedTextView.h in Headers */,
 				94D24B591D4AFE7800C7F33C /* DTAttributedTextContentView.h in Headers */,
-				2FB02E1E2C848DFE0036957D /* UoocTagHandler.h in Headers */,
 				94D24B5A1D4AFE7800C7F33C /* DTHorizontalRuleHTMLElement.h in Headers */,
 				94D24B5B1D4AFE7800C7F33C /* UIFont+DTCoreText.h in Headers */,
 				94D24B5C1D4AFE7800C7F33C /* DTObjectTextAttachment.h in Headers */,
@@ -1767,13 +1758,13 @@
 				94D24B5F1D4AFE7800C7F33C /* NSScanner+HTML.h in Headers */,
 				94D24B601D4AFE7800C7F33C /* DTColorFunctions.h in Headers */,
 				94D24B611D4AFE7800C7F33C /* DTHTMLParserTextNode.h in Headers */,
-				2FB02E5F2C84D0830036957D /* TagRandererView.h in Headers */,
 				94D24B621D4AFE7800C7F33C /* DTCoreTextParagraphStyle.h in Headers */,
 				94D24B631D4AFE7800C7F33C /* DTTextAttachment.h in Headers */,
 				94D24B641D4AFE7800C7F33C /* DTAccessibilityViewProxy.h in Headers */,
 				94D24B651D4AFE7800C7F33C /* DTHTMLWriter.h in Headers */,
 				94D24B661D4AFE7800C7F33C /* DTCoreTextFunctions.h in Headers */,
 				94D24B671D4AFE7800C7F33C /* DTVideoTextAttachment.h in Headers */,
+				2FB02E842C84DA810036957D /* UoocTagHandler.h in Headers */,
 				94D24B681D4AFE7800C7F33C /* DTCoreTextGlyphRun.h in Headers */,
 				94D24B691D4AFE7800C7F33C /* NSCharacterSet+HTML.h in Headers */,
 				94D24B6A1D4AFE7800C7F33C /* DTCoreTextLayoutFrame+Cursor.h in Headers */,
@@ -1811,6 +1802,7 @@
 				94D24B8A1D4AFE7800C7F33C /* DTTextHTMLElement.h in Headers */,
 				94D24B8B1D4AFE7800C7F33C /* NSAttributedString+DTCoreText.h in Headers */,
 				94D24B8C1D4AFE7800C7F33C /* NSCoder+DTCompatibility.h in Headers */,
+				2FB02E812C84DA810036957D /* TagRandererView.h in Headers */,
 				94D24B8D1D4AFE7800C7F33C /* DTAttributedLabel.h in Headers */,
 				94D24B8E1D4AFE7800C7F33C /* DTCoreText.h in Headers */,
 				94D24B8F1D4AFE7800C7F33C /* DTCompatibility.h in Headers */,
@@ -1829,7 +1821,6 @@
 				A79BA6B11B46A2700086C2F6 /* NSAttributedStringRunDelegates.h in Headers */,
 				A7B1304D1B4B25BF0014E109 /* DTAttributedTextView.h in Headers */,
 				A7B1304B1B4B25BF0014E109 /* DTAttributedTextContentView.h in Headers */,
-				2FB02E1D2C848DFE0036957D /* UoocTagHandler.h in Headers */,
 				A79BA67D1B46A24F0086C2F6 /* DTHorizontalRuleHTMLElement.h in Headers */,
 				A79BA6A91B46A26B0086C2F6 /* UIFont+DTCoreText.h in Headers */,
 				A79BA6971B46A25A0086C2F6 /* DTObjectTextAttachment.h in Headers */,
@@ -1838,13 +1829,13 @@
 				A79BA6B71B46A2700086C2F6 /* NSScanner+HTML.h in Headers */,
 				A79BA68B1B46A2530086C2F6 /* DTColorFunctions.h in Headers */,
 				A79BA6751B46A24A0086C2F6 /* DTHTMLParserTextNode.h in Headers */,
-				2FB02E5E2C84D0830036957D /* TagRandererView.h in Headers */,
 				A79BA6711B46A24A0086C2F6 /* DTCoreTextParagraphStyle.h in Headers */,
 				A79BA68D1B46A25A0086C2F6 /* DTTextAttachment.h in Headers */,
 				A7B130571B4B25E30014E109 /* DTAccessibilityViewProxy.h in Headers */,
 				A79BA6991B46A2600086C2F6 /* DTHTMLWriter.h in Headers */,
 				A79BA6601B46A24A0086C2F6 /* DTCoreTextFunctions.h in Headers */,
 				A79BA6951B46A25A0086C2F6 /* DTVideoTextAttachment.h in Headers */,
+				2FB02E832C84DA810036957D /* UoocTagHandler.h in Headers */,
 				A79BA69D1B46A2660086C2F6 /* DTCoreTextGlyphRun.h in Headers */,
 				A79BA6B31B46A2700086C2F6 /* NSCharacterSet+HTML.h in Headers */,
 				A79BA6A31B46A2660086C2F6 /* DTCoreTextLayoutFrame+Cursor.h in Headers */,
@@ -1882,6 +1873,7 @@
 				A79BA6831B46A24F0086C2F6 /* DTTextHTMLElement.h in Headers */,
 				A79BA6AD1B46A2700086C2F6 /* NSAttributedString+DTCoreText.h in Headers */,
 				A79BA6671B46A24A0086C2F6 /* NSCoder+DTCompatibility.h in Headers */,
+				2FB02E802C84DA810036957D /* TagRandererView.h in Headers */,
 				A7B130471B4B25BF0014E109 /* DTAttributedLabel.h in Headers */,
 				A79BA65B1B46A2290086C2F6 /* DTCoreText.h in Headers */,
 				A79BA65D1B46A2300086C2F6 /* DTCompatibility.h in Headers */,
@@ -1893,7 +1885,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDAE5F871F511E26003A5F0B /* NSAttributedString+HTML.h in Headers */,
-				2FB02E5B2C84D0830036957D /* TagRandererView.h in Headers */,
 				FDAE5F861F511DEB003A5F0B /* DTStylesheetHTMLElement.h in Headers */,
 				FDAE5F851F511DA6003A5F0B /* DTImage+HTML.h in Headers */,
 				FDAE5F841F511D62003A5F0B /* DTColor+Compatibility.h in Headers */,
@@ -1903,11 +1894,11 @@
 				FD3C5FEF1F510EB7000352CE /* DTCoreTextLayouter.h in Headers */,
 				FD3C5FF01F510EB7000352CE /* DTCoreTextLayoutFrame.h in Headers */,
 				FD3C5FF11F510EB7000352CE /* DTCoreTextLayoutLine.h in Headers */,
+				2FB02E822C84DA810036957D /* UoocTagHandler.h in Headers */,
 				E2262DD71638337D00BFDAD7 /* DTCoreTextConstants.h in Headers */,
 				E2262DDB1638337D00BFDAD7 /* DTHTMLAttributedStringBuilder.h in Headers */,
 				E2262DDD1638337D00BFDAD7 /* DTHTMLElement.h in Headers */,
 				E2262DDF1638337D00BFDAD7 /* DTCSSListStyle.h in Headers */,
-				2FB02E1C2C848DFE0036957D /* UoocTagHandler.h in Headers */,
 				E2262DE11638337D00BFDAD7 /* DTCSSStylesheet.h in Headers */,
 				E2262DE41638337D00BFDAD7 /* DTTextAttachment.h in Headers */,
 				E2262DE61638337D00BFDAD7 /* NSString+CSS.h in Headers */,
@@ -1935,6 +1926,7 @@
 				A7EB84D8168B9B1300D686B7 /* DTHorizontalRuleHTMLElement.h in Headers */,
 				A79BA65C1B46A2300086C2F6 /* DTCompatibility.h in Headers */,
 				A7EB84E8168C657100D686B7 /* DTListItemHTMLElement.h in Headers */,
+				2FB02E7F2C84DA810036957D /* TagRandererView.h in Headers */,
 				A70E62D916C24905009B47BF /* DTDictationPlaceholderTextAttachment.h in Headers */,
 				A700289C16FB220B00AFEDA3 /* DTAnchorHTMLElement.h in Headers */,
 				A7AE5824172538CC00A9BF61 /* DTIframeTextAttachment.h in Headers */,
@@ -2490,7 +2482,7 @@
 				94D24B1E1D4AFE7800C7F33C /* DTIframeTextAttachment.m in Sources */,
 				94D24B1F1D4AFE7800C7F33C /* DTCoreTextLayoutFrameAccessibilityElementGenerator.m in Sources */,
 				94D24B201D4AFE7800C7F33C /* DTCoreTextLayoutFrame.m in Sources */,
-				2FB02E212C848DFE0036957D /* UoocTagHandler.m in Sources */,
+				2FB02E872C84DA810036957D /* UoocTagHandler.m in Sources */,
 				94D24B211D4AFE7800C7F33C /* DTTextAttachment.m in Sources */,
 				94D24B221D4AFE7800C7F33C /* DTHTMLElement.m in Sources */,
 				94D24B231D4AFE7800C7F33C /* DTAttributedTextCell.m in Sources */,
@@ -2509,7 +2501,7 @@
 				94D24B2F1D4AFE7800C7F33C /* NSCoder+DTCompatibility.m in Sources */,
 				94D24B301D4AFE7800C7F33C /* DTImageTextAttachment.m in Sources */,
 				94D24B311D4AFE7800C7F33C /* DTTextHTMLElement.m in Sources */,
-				2FB02E602C84D0830036957D /* TagRandererView.m in Sources */,
+				2FB02E8A2C84DA810036957D /* TagRandererView.m in Sources */,
 				94D24B321D4AFE7800C7F33C /* NSString+HTML.m in Sources */,
 				94D24B331D4AFE7800C7F33C /* NSAttributedString+HTML.m in Sources */,
 				94D24B341D4AFE7800C7F33C /* NSCharacterSet+HTML.m in Sources */,
@@ -2610,7 +2602,7 @@
 				A79BA6921B46A25A0086C2F6 /* DTIframeTextAttachment.m in Sources */,
 				A7B1305A1B4B25E30014E109 /* DTCoreTextLayoutFrameAccessibilityElementGenerator.m in Sources */,
 				A79BA6A21B46A2660086C2F6 /* DTCoreTextLayoutFrame.m in Sources */,
-				2FB02E202C848DFE0036957D /* UoocTagHandler.m in Sources */,
+				2FB02E862C84DA810036957D /* UoocTagHandler.m in Sources */,
 				A79BA68E1B46A25A0086C2F6 /* DTTextAttachment.m in Sources */,
 				A79BA6781B46A24F0086C2F6 /* DTHTMLElement.m in Sources */,
 				A7B1304A1B4B25BF0014E109 /* DTAttributedTextCell.m in Sources */,
@@ -2629,7 +2621,7 @@
 				A79BA6941B46A25A0086C2F6 /* DTImageTextAttachment.m in Sources */,
 				A79BA6841B46A24F0086C2F6 /* DTTextHTMLElement.m in Sources */,
 				A79BA6BA1B46A2700086C2F6 /* NSString+HTML.m in Sources */,
-				2FB02E5D2C84D0830036957D /* TagRandererView.m in Sources */,
+				2FB02E892C84DA810036957D /* TagRandererView.m in Sources */,
 				A79BA6AC1B46A2700086C2F6 /* NSAttributedString+HTML.m in Sources */,
 				A79BA6B41B46A2700086C2F6 /* NSCharacterSet+HTML.m in Sources */,
 				A79BA6761B46A24A0086C2F6 /* DTHTMLParserTextNode.m in Sources */,
@@ -2670,7 +2662,7 @@
 				E2262DD51638336700BFDAD7 /* DTColor+Compatibility.m in Sources */,
 				E2262DD61638336700BFDAD7 /* DTImage+HTML.m in Sources */,
 				E2262DD81638337D00BFDAD7 /* DTCoreTextConstants.m in Sources */,
-				2FB02E5C2C84D0830036957D /* TagRandererView.m in Sources */,
+				2FB02E882C84DA810036957D /* TagRandererView.m in Sources */,
 				E2262DDC1638337D00BFDAD7 /* DTHTMLAttributedStringBuilder.m in Sources */,
 				E2262DDE1638337D00BFDAD7 /* DTHTMLElement.m in Sources */,
 				E2262DE01638337D00BFDAD7 /* DTCSSListStyle.m in Sources */,
@@ -2703,7 +2695,7 @@
 				A70E62FC16C2540C009B47BF /* DTStylesheetHTMLElement.m in Sources */,
 				A70028A016FB220B00AFEDA3 /* DTAnchorHTMLElement.m in Sources */,
 				A762704017155420005F0CEC /* DTCoreTextFontCollection.m in Sources */,
-				2FB02E1F2C848DFE0036957D /* UoocTagHandler.m in Sources */,
+				2FB02E852C84DA810036957D /* UoocTagHandler.m in Sources */,
 				A7AE58141725374C00A9BF61 /* DTImageTextAttachment.m in Sources */,
 				A7AE581E1725381E00A9BF61 /* DTVideoTextAttachment.m in Sources */,
 				A7AE5828172538CC00A9BF61 /* DTIframeTextAttachment.m in Sources */,
