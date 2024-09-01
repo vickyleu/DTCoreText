@@ -18,7 +18,7 @@
 @property (nonatomic, copy) NSString * _Nonnull tagName;
 @property (nonatomic, weak,readonly) id<TagHandler> _Nullable handler;
 
--(nullable DTTextAttachment *)attachment;
+-(nullable id)attachment;
 
 @end
 
