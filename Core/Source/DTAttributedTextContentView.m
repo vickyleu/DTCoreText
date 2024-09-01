@@ -983,9 +983,6 @@ static Class _layerClassToUseForDTAttributedTextContentView = nil;
 	_delegateFlags.delegateSupportsCustomViewsForAttachments = [_delegate respondsToSelector:@selector(attributedTextContentView:viewForAttachment:frame:)];
 	_delegateFlags.delegateSupportsCustomViewsForLinks = [_delegate respondsToSelector:@selector(attributedTextContentView:viewForLink:identifier:frame:)];
 	_delegateFlags.delegateSupportsGenericCustomViews = [_delegate respondsToSelector:@selector(attributedTextContentView:viewForAttributedString:frame:)];
-    NSLog(@"delegateSupportsCustomViewsForAttachments: %d", _delegateFlags.delegateSupportsCustomViewsForAttachments);
-	NSLog(@"delegateSupportsCustomViewsForAttachments: respondsToSelector %id", [_delegate respondsToSelector:@selector(attributedTextContentView:viewForAttributedString:frame:)]);
-
     _delegateFlags.delegateSupportsNotificationBeforeDrawing = [_delegate respondsToSelector:@selector(attributedTextContentView:willDrawLayoutFrame:inContext:)];
 	_delegateFlags.delegateSupportsNotificationAfterDrawing = [_delegate respondsToSelector:@selector(attributedTextContentView:didDrawLayoutFrame:inContext:)];
 	_delegateFlags.delegateSupportsNotificationBeforeTextBoxDrawing = [_delegate respondsToSelector:@selector(attributedTextContentView:shouldDrawBackgroundForTextBlock:frame:context:forLayoutFrame:)];

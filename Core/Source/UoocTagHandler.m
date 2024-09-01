@@ -15,4 +15,8 @@
     return self;
 }
 
+-(DTTextAttachment*)attachment{
+    return nil;
+}
+
 @end
