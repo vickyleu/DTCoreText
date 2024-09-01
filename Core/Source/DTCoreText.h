@@ -57,7 +57,6 @@
 #import "DTHTMLParserTextNode.h"
 
 // text attachment cluster
-#import "UoocTagHandler"
 #import "DTTextAttachment.h"
 #import "DTDictationPlaceholderTextAttachment.h"
 #import "DTIframeTextAttachment.h"
@@ -72,6 +71,8 @@
 #import "DTCoreTextLayoutFrame+Cursor.h"
 #import "DTCoreTextLayoutLine.h"
 #import "DTCoreTextLayouter.h"
+
+#import "UoocTagHandler.h"
 
 // TARGET_OS_IPHONE is both tvOS and iOS
 #if TARGET_OS_IPHONE

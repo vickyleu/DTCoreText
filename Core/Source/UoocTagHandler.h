@@ -3,10 +3,6 @@
 #import "DTHTMLElement.h"
 #import "DTCSSListStyle.h"
 
-#if TARGET_OS_IPHONE && !TARGET_OS_WATCH
-
-#import <UIKit/UIKit.h>
-
 @protocol TagHandler <NSObject>
 - (void)handleStartTag:(nonnull DTHTMLElement *)currentTag;
 - (void)handleEndTag:(nonnull DTHTMLElement *)currentTag;
@@ -22,10 +18,6 @@
 @property (nonatomic, weak,readonly) id<TagHandler> _Nullable handler;
 
 @end
-
-
-#endif
-
 
 
 
