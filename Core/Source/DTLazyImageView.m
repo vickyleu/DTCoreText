@@ -277,7 +277,18 @@ didReceiveResponse:(NSURLResponse *)response
 	{
 		NSHTTPURLResponse *httpResponse = (id)response;
 		
-		if (![[httpResponse MIMEType] hasPrefix:@"image"])
+		// Some CDNs (e.g. Aliyun OSS without forced Content-Type) return image
+		// bytes with application/octet-stream. Trust the URL extension and
+		// rely on UIImage/ImageIO magic-bytes sniffing instead of rejecting
+		// the response purely on MIME prefix. We still bail out on obvious
+		// non-image MIME (text/html error pages, json, ...).
+		NSString *mimeType = [httpResponse MIMEType] ?: @"";
+		BOOL mimeLooksLikeImage = [mimeType hasPrefix:@"image"];
+		BOOL mimeIsOpaqueBinary = ([mimeType length] == 0)
+			|| [mimeType isEqualToString:@"application/octet-stream"]
+			|| [mimeType isEqualToString:@"binary/octet-stream"]
+			|| [mimeType isEqualToString:@"application/binary"];
+		if (!mimeLooksLikeImage && !mimeIsOpaqueBinary)
 		{
 #if DTCORETEXT_USES_NSURLSESSION
 			completionHandler(NSURLSessionResponseCancel);
